@@ -15,7 +15,8 @@ export default function Index() {
     const body = JSON.stringify({
       app_id: 'fa4641e4-c71f-48e9-8caa-0ee1df81d87a',
       contents: {en: message != '' ? message : 'Olá Sou um Push Notification!'},
-      included_segments: ['All'],
+      // included_segments: ['All'],
+      include_player_ids: ["9249ed86-7607-4963-935c-f26ddcb3d4cb"]
     });
 
     axios({

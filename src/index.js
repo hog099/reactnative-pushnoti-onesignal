@@ -12,7 +12,7 @@ export default class App extends Component {
 
     // OneSignal.addEventListener('received', this.onReceived);
     // OneSignal.addEventListener('opened', this.onOpened);
-    // OneSignal.addEventListener('ids', this.onIds);
+    OneSignal.addEventListener('ids', this.onIds);
   }
 
   componentWillMount() {
@@ -40,7 +40,7 @@ export default class App extends Component {
   }
 
   onIds(device) {
-    // console.log('Device info: ', device);
+    console.log('Device info: ', device);
   }
 
   render() {
