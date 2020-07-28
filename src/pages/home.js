@@ -9,14 +9,14 @@ export default function Index() {
   function onSubmit() {
     const headers = {
       'Content-Type': 'application/json; charset=utf-8',
-      Authorization: 'Basic YTRiNmQyMzQtM2YxNy00ZTY0LWJhY2QtY2M1MmYwYWIyMTNj',
+      Authorization: 'Basic Yert6732dfyMzQtMert5678uhjn0LWJhY2rt789pYwYWIyMTNj',
     };
 
     const body = JSON.stringify({
-      app_id: 'fa4641e4-c71f-48e9-8caa-0ee1df81d87a',
+      app_id: 'fabbgh78-c55f-33e9-8caa-0e22gfh47a',
       contents: {en: message != '' ? message : 'Olá Sou um Push Notification!'},
       // included_segments: ['All'],
-      include_player_ids: ["9249ed86-7607-4963-935c-f26ddcb3d4cb"]
+      include_player_ids: ["5787fgg-7223-49114-944c-f2ggh64f4cb"]
     });
 
     axios({
